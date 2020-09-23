@@ -1,7 +1,7 @@
 
 来源此项目 https://github.com/xiangcman/LayoutManager-FlowLayout
 
-[![](https://jitpack.io/v/xiangcman/LayoutManager-FlowLayout.svg)](https://jitpack.io/#1002326270xc/LayoutManager-FlowLayout/v1.8)
+[！[]（https://jitpack.io/v/RookieExaminer/LayoutManager-FlowLayout.svg）]（https://jitpack.io/#RookieExaminer/LayoutManager-FlowLayout）
 
 说真的自从对**RecyclerView**的**LayoutManager**有新的认识后，完全不用担心很多的复杂布局了。而且对**ViewGroup**测量过程也不用担心了，因为里面有**LayoutManager**帮我们实现了。下面就进入该篇文章的主题吧，废话不多说，直接上图更有说服力。
 
@@ -69,3 +69,17 @@ recyclerView.setAdapter(new FlowAdapter());
 使用:见[LongClickDeleteTextFlowActivity](https://github.com/1002326270xc/LayoutManager-FlowLayout/blob/vp_flow/app/src/main/java/com/single/flowlayout/LongClickDeleteTextFlowActivity.java)
 
 
+将其添加到存储库末尾的root build.gradle中：
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.RookieExaminer:LayoutManager-FlowLayout:Tag'
+	}
