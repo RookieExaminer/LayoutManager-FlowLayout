@@ -1,7 +1,8 @@
 package com.single.flowlayout;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by xiangcheng on 17/9/26.

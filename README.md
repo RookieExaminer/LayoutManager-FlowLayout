@@ -1,3 +1,6 @@
+
+来源此项目 https://github.com/xiangcman/LayoutManager-FlowLayout
+
 [![](https://jitpack.io/v/xiangcman/LayoutManager-FlowLayout.svg)](https://jitpack.io/#1002326270xc/LayoutManager-FlowLayout/v1.8)
 
 说真的自从对**RecyclerView**的**LayoutManager**有新的认识后，完全不用担心很多的复杂布局了。而且对**ViewGroup**测量过程也不用担心了，因为里面有**LayoutManager**帮我们实现了。下面就进入该篇文章的主题吧，废话不多说，直接上图更有说服力。
@@ -65,67 +68,4 @@ recyclerView.setAdapter(new FlowAdapter());
 
 使用:见[LongClickDeleteTextFlowActivity](https://github.com/1002326270xc/LayoutManager-FlowLayout/blob/vp_flow/app/src/main/java/com/single/flowlayout/LongClickDeleteTextFlowActivity.java)
 
-**1.1版本:**
 
-修复重复操作数据问题
-
-**1.2版本:**
-
-修复重复操作数据错位以及暴露内容高度
-
-**1.3版本:**
-
-修复中间添加数据时错位问题
-
-**1.4版本:**
-
-修复动画问题
-
-**1.5版本:**
-
-添加RV嵌套RV时wrap_content不显示问题
-
-**1.6版本:**
-
-解决某些机型在wrap_content不显示问题
-
-**1.7版本:**
-
-修复清空数据滑动页面还在显示的问题
-
-**gradle依赖:**
-```
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
-}
-
-dependencies {
-        compile 'com.github.1002326270xc:LayoutManager-FlowLayout:v1.8'
-}
-```
-
-**demo第一时间体验:**
-
-<image src="https://github.com/xiangcman/LayoutManager-FlowLayout/blob/master/photos/demo.png" width="200" width="200"/>
-
-
-**欢迎大家提出问题，留言板留言或邮箱直接联系我。我会第一时间测试相关的bug**
-
-**欢迎客官到本店光临(qq群):**
-
-<image src="https://github.com/1002326270xc/LayoutManager-FlowLayout/blob/master/photos/IMG_0221.jpg" width="200" width="200" title="qq群"/>
-
-**您的鼓励就是给作者最大的支持，或是请我喝杯咖啡也行，哈哈哈~~~**
-
-<image src="https://github.com/xiangcman/LayoutManager-FlowLayout/blob/master/photos/me.png" width="200" width="200"/>
-       
-### 关于我:
-
-**email:** a1002326270@163.com
-
-**简书:** http://www.jianshu.com/users/7b186b7247c1/latest_articles
-
-**csdn:** http://blog.csdn.net/u010429219/article/details/64915136

@@ -1,12 +1,13 @@
 package com.single.flowlayout;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.library.flowlayout.FlowLayoutManager;
 import com.library.flowlayout.SpaceItemDecoration;
