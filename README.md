@@ -3,7 +3,6 @@
 
 [![](https://jitpack.io/v/RookieExaminer/LayoutManager-FlowLayout.svg)](https://jitpack.io/#RookieExaminer/LayoutManager-FlowLayout)
 
-1.将其添加到存储库末尾的root build.gradle中：
 
 	allprojects {
 		repositories {
@@ -12,10 +11,8 @@
 		}
 	}
 
-2. 添加依赖项
-
 	dependencies {
-	        implementation 'com.github.RookieExaminer:LayoutManager-FlowLayout:Tag'
+	        implementation 'com.github.RookieExaminer:LayoutManager-FlowLayout:2.0'
 	}
 
 
