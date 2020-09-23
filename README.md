@@ -1,5 +1,8 @@
 
-来源此项目 https://github.com/xiangcman/LayoutManager-FlowLayout
+推荐谷歌官方库：https://github.com/google/flexbox-layout
+
+
+此项目来源此项目 https://github.com/xiangcman/LayoutManager-FlowLayout
 
 [![](https://jitpack.io/v/RookieExaminer/LayoutManager-FlowLayout.svg)](https://jitpack.io/#RookieExaminer/LayoutManager-FlowLayout)
 
